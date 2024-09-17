@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umair Portfolio</title>
+    <link rel="stylesheet" href="umair.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="umair1.js" defer></script>
+</head>
+<body>
+
+    <nav>
+        <ul id="navLinks">
+            <li><strong>Portfolio</strong></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#awards-certifications">Certificates</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="home">
+      <div id="languageButtons">
+        <button id="lang-en">English</button>
+        <button id="lang-ar">عربي</button>
+        <button id="lang-fr">Français</button>
+     </div>
+      <p id="welcomeMessage" class="wlcm_msg">Hi! I am Umair<br>Welcome to my portfolio</p>
+      <div id="profileSection">
+          <img id="profilePic" src="pp2.jpeg" alt="Profile Picture" />
+      </div>
+      <div id="socialMediaFeed">
+        <a href="https://github.com/MUmairTahir" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/m_umairtahir" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/mumair.tahir9101" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+  
+    <div id="about" class="section">
+        <h2>About</h2>
+        <p id="aboutMe">I am a 7th-semester computer science student with a passion for technology and problem-solving. My academic journey has provided me with a solid foundation in computer science and practical experience through various projects.
+        <br>I thrive on challenges and enjoy learning new technologies. Alongside my technical knowledge, I have developed strong communication, teamwork, and critical thinking skills.
+        <br>Explore my portfolio to learn more about my journey and projects. Let's connect and collaborate on exciting opportunities!</p>
+    </div>
+
+    <div id="skills" class="section">
+        <h2>Skills</h2>
+        <div id="hardSkills" class="skills">
+            <h3>Hard Skills</h3>
+            <p>Programming Languages: C++, Python, JavaScript, HTML, CSS</p>
+            <p>Database: SQL</p>
+        </div>
+        <div id="softSkills" class="skills">
+            <h3>Soft Skills</h3>
+            <p>Communication</p>
+            <p>Teamwork</p>
+            <p>Problem Solving</p>
+            <p>Event Management</p>
+        </div>
+    </div>
+
+    <div id="awards-certifications" class="section">
+        <h2>Certificates</h2>
+        <div id="awardsList">
+            <div class="award-card">
+                <h3>Code Rush</h3>
+                <p>2023-10-20</p>
+            </div>
+            <div class="award-card">
+                <h3>Cloud Computing Course</h3>
+                <p>2023-12-10</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="education" class="section">
+        <h2>Education</h2>
+        <div id="educationList">
+            <div class="edu-card">
+                <h3>Bachelor of Computer Science</h3>
+                <p>Information Technology University</p>
+                <p>Expected 2025</p>
+            </div>
+            <div class="edu-card">
+                <h3>Intermediate</h3>
+                <p>Punjab Group Of Colleges</p>
+                <p>2018-2020</p>
+            </div>
+            <div class="edu-card">
+                <h3>Matriculation</h3>
+                <p>Dar-e-Arqam</p>
+                <p>2016-2018</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="slider">
+          <button class="prev">‹</button>
+          <div class="slider-wrapper">
+              <div class="slide-container" id="projectsList">
+                <div class="project-card">
+                    <h3>Snake Game (C++)</h3>
+                    <p>Developed a classic Snake game using C++. The game features smooth graphics, responsive controls, and increasing difficulty levels, offering an engaging and nostalgic experience.</p>
+                    <p>2022-05-12</p>
+                </div>
+                <div class="project-card">
+                    <h3>Chess Game (C++)</h3>
+                    <p>Developed a Chess game in C++ that includes all standard chess rules and mechanics. This project demonstrates my proficiency in handling intricate game logic and user input within a console application.</p>
+                    <p>2022-07-15</p>
+                </div>
+                <div class="project-card">
+                    <h3>Shogi Game (C++)</h3>
+                    <p>Created a Shogi game in C++ with full implementation of Shogi rules and mechanics. This project highlights my ability to manage complex game logic and user interactions in a console-based environment.</p>
+                    <p>2023-01-05</p>
+                </div>
+                <div class="project-card">
+                    <h3>Hotel Management System (C++)</h3>
+                    <p>Designed and implemented a Hotel Management System in C++. This system manages room bookings, customer details, and billing, showcasing my skills in developing comprehensive software solutions for real-world applications.</p>
+                    <p>2023-05-10</p>
+                </div>
+                <div class="project-card">
+                    <h3>Shopify Store Design (adornly.com)</h3>
+                    <p>Designed and developed a Shopify store of jewellery for Adornly, focusing on creating an appealing and user-friendly online shopping experience.</p>
+                    <p>2023-06-15</p>
+                </div>
+                <div class="project-card">
+                    <h3>Shopify Store Design (Zenat Boutique)</h3>
+                    <p>Designed and developed a Shopify store for Zenat Boutique, focusing on creating an attractive and user-friendly online shopping experience. The design features a modern aesthetic, intuitive navigation, and a responsive layout.</p>
+                    <p>2024-01-15</p>
+                </div>
+              </div>
+          </div>
+          <button class="next">›</button>
+      </div>
+    </section>
+
+    <div id="contact" class="section">
+        <h2>Contact</h2>
+        <p id="contactInfo">Email: mumairtahir3366@gmail.com<br>Phone: 0318-0449194</p>
+    </div>
+
+    <div id="video-section" class="section">
+        <h2>Video</h2>
+        <div class="video-container">
+            <video id="myVideo" controls muted>
+                <source src="Teamwork and Leadership __ Motivational short Animation Video....mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</body>
+</html>
